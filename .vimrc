@@ -6,6 +6,8 @@ syntax on
 
 "Set the theme for the editor colors"
 colorscheme evening
+highlight Normal guibg=black guifg=white
+set background=dark
 
 " Handle tabs "
 set tabstop=4
