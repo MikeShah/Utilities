@@ -13,10 +13,10 @@ SUFFIX Any additional arguments (pipping, or perhaps using 'yes' to easily insta
 WHAT Any information as to what is being installed
 '''
 def yum_install(PREFIX,INSTALLER,PROGRAM,SUFFIX,WHAT):
-        print("=======Installing: "+PROGRAM+" =============")
+        print("=======v Installing: "+PROGRAM+" v=============")
         print(WHAT)
         os.system(PREFIX+" "+INSTALLER+" "+PROGRAM+" "+SUFFIX)
-
+        print("=======^ Installed: "+PROGRAM+" ^=============")
 
 yum_install("sudo","yum install","gdb","","A debugger for GCC compiled programs")
 yum_install("sudo","yum install","ddd","","Data Display Debugger is a GUI based debugger")
