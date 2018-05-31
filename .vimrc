@@ -5,7 +5,7 @@ set number
 syntax on
 
 "Set the theme for the editor colors"
-colorscheme github
+colorscheme evening
 
 " Handle tabs "
 set tabstop=4
