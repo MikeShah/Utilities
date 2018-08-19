@@ -14,6 +14,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Useful for highlighting occurrences of variables under the cursor"
+set hlsearch
+
 " Make a bar so I know when I am past 80 characters"
 highlight ColorColumn ctermbg=magenta
 set colorcolumn=81
