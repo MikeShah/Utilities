@@ -25,5 +25,8 @@ set colorcolumn=81
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
+" Automatically indent"
+set autoindent
+
 " Perform spell checking with the built in spell checker "
-set spell spelllang=en_us
+" set spell spelllang=en_us"
