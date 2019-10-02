@@ -4,10 +4,12 @@ set number
 " Enable Syntax Highlighting"
 syntax on
 
+
 "Set the theme for the editor colors"
-colorscheme evening
 highlight Normal guibg=black guifg=white
 set background=dark
+set t_Co=256
+colorscheme ron
 
 " Handle tabs "
 set tabstop=4
