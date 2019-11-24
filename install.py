@@ -18,6 +18,8 @@ def yum_install(PREFIX,INSTALLER,PROGRAM,SUFFIX,WHAT):
         os.system(PREFIX+" "+INSTALLER+" "+PROGRAM+" "+SUFFIX)
         print("=======^ Installed: "+PROGRAM+" ^=============")
 
+yum_install("sudo","yum install","vim","","Data Display Debugger is a GUI based debugger")
+yum_install("sudo","yum install","tmux","","Data Display Debugger is a GUI based debugger")
 yum_install("sudo","yum install","gdb","","A debugger for GCC compiled programs")
 yum_install("sudo","yum install","ddd","","Data Display Debugger is a GUI based debugger")
 
