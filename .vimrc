@@ -19,13 +19,20 @@ Plugin 'tpope/vim-fugitive'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
+" Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" Super tab: https://vimawesome.com/plugin/supertab
+Plugin 'ervandew/supertab'
+" Clang complete
+Plugin 'rip-rip/clang_complete'
+let g:clang_library_path='/usr/lib/llvm-9/lib/libclang.so.1'
+let g:clang_complete_macros=1
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -44,7 +51,7 @@ filetype plugin indent on    " required
 
 
 " ----------------------------------------------------------- "
-Plugin 'tomasiser/vim-code-dark'
+" Plugin 'tomasiser/vim-code-dark' "
 "Set the theme for the editor colors"
 set t_Co=256
 set t_ut=
@@ -53,7 +60,7 @@ colorscheme codedark
 "Fuzzy file finder when you do :e"
 "cd to ~/.vim"
 "git clone https://github.com/ctrlpvim/ctrlp.vim.git bundle/ctrlp.vim"
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+"set runtimepath^=~/.vim/bundle/ctrlp.vim"
 ":helptags ~/.vim/bundle/ctrlp.vim/doc"
 
 " ----------------------------------------------------------- "
@@ -62,7 +69,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
 
 "Enable true colors"
-set termguicolors
+"set termguicolors"
 
 " Enable Syntax Highlighting"
 syntax on
@@ -80,8 +87,8 @@ highlight ColorColumn ctermbg=red
 set colorcolumn=81
 
 " set little markers for tabs and spaces "
-exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
-set list
+" exec set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~ "
+" set list"
 
 " Automatically indent"
 set autoindent
