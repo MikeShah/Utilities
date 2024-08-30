@@ -22,6 +22,9 @@ sudo apt install -Y libsdl2-dev
 wget https://downloads.dlang.org/releases/2.x/2.109.1/dmd_2.109.1-0_amd64.deb
 sudo dpkg -i dmd_2.109.1-0_amd64.deb
 
+# Useful libraries specifically for DLang
+sudo apt install -Y libgtk-3-dev
+
 # Install blender
 mkdir ~/blender-git
 cd ~/blender-git
