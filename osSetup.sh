@@ -15,6 +15,7 @@ sudo apt install -y valgrind
 sudo apt install -y cppcheck
 sudo apt install -y perf
 sudo apt install -y pkg-config
+sudo apt install -y curl
 
 # Install graphics libraries
 sudo apt install -y libsdl2-dev
