@@ -3,31 +3,43 @@
 
 # Install some common tools
 sudo apt update -y
-sudo apt install -y build-essentials
+sudo apt install -y build-essential
 sudo apt install -y vim
+# Optionally create a ~/.vimrc
+# set number
+# set tabstop=4
+# set shiftwidth=4
+# set expandtab
+# set autoindent
 sudo apt install -y tmux
 sudo apt install -y git
 sudo apt install -y tree
 sudo apt install -y gdb
-sudo apt install -y make
 sudo apt install -y valgrind
-sudo apt install -y perf
 sudo apt install -y pkg-config
 sudo apt install -y curl
+
+# Web browser
+sudo apt install -y firefox
+
+# Additional Text Editor
+sudo apt install -y kate
 
 # Install C++ Tools
 sudo apt install -y cmake
 sudo apt install -y cppcheck
+sudo apt install -y cppman
 
 # Install graphics libraries
 sudo apt install -y libsdl2-dev
+sudo apt install -y mesa-utils
 
 # Install D Compiler
 wget https://downloads.dlang.org/releases/2.x/2.109.1/dmd_2.109.1-0_amd64.deb
 sudo dpkg -i dmd_2.109.1-0_amd64.deb
 
 # Useful libraries specifically for DLang
-sudo apt install -Y libgtk-3-dev
+sudo apt install -y libgtk-3-dev
 
 # Install blender
 #mkdir ~/blender-git
