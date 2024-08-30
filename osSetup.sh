@@ -4,7 +4,6 @@
 # Install some common tools
 sudo apt update -y
 sudo apt install -y build-essentials
-sudo apt install -y cmake
 sudo apt install -y vim
 sudo apt install -y tmux
 sudo apt install -y git
@@ -12,10 +11,13 @@ sudo apt install -y tree
 sudo apt install -y gdb
 sudo apt install -y make
 sudo apt install -y valgrind
-sudo apt install -y cppcheck
 sudo apt install -y perf
 sudo apt install -y pkg-config
 sudo apt install -y curl
+
+# Install C++ Tools
+sudo apt install -y cmake
+sudo apt install -y cppcheck
 
 # Install graphics libraries
 sudo apt install -y libsdl2-dev
