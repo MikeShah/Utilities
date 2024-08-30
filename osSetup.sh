@@ -38,6 +38,10 @@ sudo apt install -y mesa-utils
 wget https://downloads.dlang.org/releases/2.x/2.109.1/dmd_2.109.1-0_amd64.deb
 sudo dpkg -i dmd_2.109.1-0_amd64.deb
 
+# Note for arm based machines
+# curl -fsS https://dlang.org/install.sh | bash -s ldc
+
+
 # Useful libraries specifically for DLang
 sudo apt install -y libgtk-3-dev
 
