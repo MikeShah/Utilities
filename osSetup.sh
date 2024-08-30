@@ -1,5 +1,5 @@
-# Helpful guide here:
-# https://wiki.blender.org/wiki/Building_Blender/Linux/Ubuntu
+# Consider somethings such as changing:
+# 'resolution' of the Virtual Machine display
 
 # Install some common tools
 sudo apt update -y
@@ -40,6 +40,9 @@ sudo dpkg -i dmd_2.109.1-0_amd64.deb
 
 # Useful libraries specifically for DLang
 sudo apt install -y libgtk-3-dev
+
+# Helpful guide here:
+# https://wiki.blender.org/wiki/Building_Blender/Linux/Ubuntu
 
 # Install blender
 #mkdir ~/blender-git
