@@ -41,8 +41,14 @@ sudo dpkg -i dmd_2.109.1-0_amd64.deb
 # Note for arm based machines you'll want 'ldc' compiler
 # curl -fsS https://dlang.org/install.sh | bash -s ldc
 
+# Install the D language GDC compiler
+sudo apt-get install -y gdc-12
+
 # Useful libraries specifically for DLang
-sudo apt install -y libgtk-3-dev
+sudo apt-get install -y libgtk-3-dev
+
+# Tool for visualizing .dot files and graphing them
+sudo apt-get install -y xdot
 
 # Helpful guide here:
 # https://wiki.blender.org/wiki/Building_Blender/Linux/Ubuntu
