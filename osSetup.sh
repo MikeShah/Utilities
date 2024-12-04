@@ -34,6 +34,10 @@ sudo apt install -y cppman
 sudo apt install -y libsdl2-dev
 sudo apt install -y mesa-utils
 
+# Windowing libraries (X11)
+# Install the manual pages
+sudo apt install libx11-doc
+
 # Install D Compiler
 wget https://downloads.dlang.org/releases/2.x/2.109.1/dmd_2.109.1-0_amd64.deb
 sudo dpkg -i dmd_2.109.1-0_amd64.deb
