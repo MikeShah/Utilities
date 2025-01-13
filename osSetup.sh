@@ -46,13 +46,16 @@ sudo dpkg -i dmd_2.109.1-0_amd64.deb
 # curl -fsS https://dlang.org/install.sh | bash -s ldc
 
 # Install the D language GDC compiler
-sudo apt-get install -y gdc-12
+sudo apt-get install -y gdc-14
 
 # Useful libraries specifically for DLang
 sudo apt-get install -y libgtk-3-dev
 
 # Tool for visualizing .dot files and graphing them
 sudo apt-get install -y xdot
+
+# Helpful tool for recording .gif animations
+sudo apt-get install -y peek
 
 # Helpful guide here:
 # https://wiki.blender.org/wiki/Building_Blender/Linux/Ubuntu
