@@ -25,22 +25,25 @@ sudo apt install -y firefox
 # Additional Text Editor
 sudo apt install -y kate
 
+# Install nasm assembler
+sudo apt install nasm -y
+
 # Install C++ Tools
 sudo apt install -y cmake
 sudo apt install -y cppcheck
 sudo apt install -y cppman
 
 # Install graphics libraries
-sudo apt install -y libsdl2-dev
+sudo apt install -y libsdl3-dev
 sudo apt install -y mesa-utils
 
 # Windowing libraries (X11)
 # Install the manual pages
-sudo apt install libx11-doc
+sudo apt install libx11-doc -y
 
 # Install D Compiler
-wget https://downloads.dlang.org/releases/2.x/2.109.1/dmd_2.109.1-0_amd64.deb
-sudo dpkg -i dmd_2.109.1-0_amd64.deb
+wget https://downloads.dlang.org/releases/2.x/2.111.0/dmd_2.111.0-0_amd64.deb
+sudo dpkg -i dmd_2.111.0-0_amd64.deb
 
 # Note for arm based machines you'll want 'ldc' compiler
 # curl -fsS https://dlang.org/install.sh | bash -s ldc
