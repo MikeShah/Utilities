@@ -53,9 +53,6 @@ sudo apt install libx11-doc -y
 wget https://downloads.dlang.org/pre-releases/2.x/2.113.0/dmd_2.113.0~rc.1-0_amd64.deb
 sudo dpkg -i dmd_2.113.0~rc.1-0_amd64.deb
 
-# Install zeal docs
-sudo apt install -y zeal
-
 # Note for arm based machines you'll want 'ldc' compiler
 curl -fsS https://dlang.org/install.sh | bash -s ldc
 
@@ -87,6 +84,13 @@ sudo apt-get install -y peek
 # cd ~/blender-git
 #./blender/build_files/build_environment/install_deps.sh
 
+
+# Install zeal docs
+sudo apt install -y zeal
+# Optional tool 'tldr' for helpful man pages
+# sudo apt install pipx
+# pipx ensurepath
+# pipx install tldr
 
 # Silly tool to get matrix background
 sudo apt install -y cmatrix
