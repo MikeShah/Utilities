@@ -92,6 +92,10 @@ sudo apt install -y zeal
 # pipx ensurepath
 # pipx install tldr
 
+
+# ffmpeg for converting mp4 to gif
+# ffmpeg -i staticbunny.mp4 -vf "fps=20" bunny.gif
+
 # Silly tool to get matrix background
 sudo apt install -y cmatrix
 # Useful tool for seeing visualization of hardware
